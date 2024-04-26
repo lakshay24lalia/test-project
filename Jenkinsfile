@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment{
-    DIRECTORY_PATH = ""
-    TESTING_ENVIRONMENT = ""
+    DIRECTORY_PATH = "https://github.com/lakshay24lalia/test-project.git"
+    TESTING_ENVIRONMENT = "test-env"
     PRODUCTION_ENVIRONMENT = "LAKSHAY_LALIA"  
   }
   stages{
