@@ -31,7 +31,8 @@ pipeline {
     }
     stage('Approval'){
       steps{
-       sh 'sleep(10)'
+     //  sh 'sleep(10)'
+        echo "test"
       }  
     }
     stage('Deploy to Production'){
