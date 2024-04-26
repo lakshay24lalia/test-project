@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment{
-    DIRECTORY_PATH = "https://github.com/lakshay24lalia/test-project.git"
+    DIRECTORY_PATH = "/blob/main/Jenkinsfile"
     TESTING_ENVIRONMENT = "test-env"
     PRODUCTION_ENVIRONMENT = "LAKSHAY_LALIA"  
   }
